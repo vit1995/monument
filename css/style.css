@@ -1633,6 +1633,10 @@ body::after {
   display: none;
 }
 
+.color-black {
+  color: #333;
+}
+
 .footer {
   background: #424242;
 }
@@ -7929,6 +7933,10 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     -webkit-transform: rotate(45deg);
         -ms-transform: rotate(45deg);
             transform: rotate(45deg);
+  }
+
+  .color-black {
+    color: rgb(255, 255, 255);
   }
 
   .species__container {
