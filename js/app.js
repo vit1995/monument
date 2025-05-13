@@ -10129,7 +10129,8 @@ PERFORMANCE OF THIS SOFTWARE.
         }
         const da = new DynamicAdapt("max");
         da.init();
-        document.querySelector(".options__input-text").addEventListener("focus", (function() {
+        const calc = document.querySelector(".calculator__wrapper-content");
+        if (calc) document.querySelector(".options__input-text").addEventListener("focus", (function() {
             document.getElementById("o_33").checked = true;
         }));
         window["FLS"] = true;
